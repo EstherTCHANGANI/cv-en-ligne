@@ -1,0 +1,10 @@
+subject: Compétences
+listing-order: 3
+icon: "/assets/img/screwdriver-wrench.svg"
+contents:
+  - title: "EXEMPLE À REMPLACER — Visualisation de données"
+    description:
+      - "Exemple : Power BI, Tableau."
+  - title: "EXEMPLE À REMPLACER — Données et programmation"
+    description:
+      - "Exemple : SQL, Python."

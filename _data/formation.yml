@@ -1,0 +1,9 @@
+subject: Formation
+listing-order: 2
+icon: "/assets/img/graduation-cap.svg"
+contents:
+  - title: "EXEMPLE À REMPLACER — Diplôme en informatique décisionnelle"
+    date: "20XX - 20XX"
+    description:
+      - "Établissement fictif — exemple"
+      - "Remplacez par votre diplôme, établissement et spécialité."

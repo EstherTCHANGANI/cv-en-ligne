@@ -4,9 +4,14 @@ Site de CV en français construit avec Jekyll et le thème [Jekyll Professional 
 
 ## Personnaliser le CV
 
-Modifiez les informations personnelles et les liens dans `_config.yml`. Les sections du CV se définissent dans des fichiers YAML placés dans `_data/`. Créez uniquement les fichiers des sections que vous souhaitez afficher : une section sans contenu est tout de même affichée par le thème.
+Modifiez les informations personnelles et les liens dans `_config.yml`. Les sections du CV se définissent dans des fichiers YAML placés dans `_data/`, un fichier par section :
 
-Chaque fichier de section suit cette structure (les `contents` peuvent contenir plusieurs éléments) :
+* `experiences.yml` : expériences professionnelles
+* `formation.yml` : formation
+* `competences.yml` : compétences
+* `langues.yml` : langues
+
+Chaque fichier suit cette structure. Ajoutez un élément par expérience, diplôme, compétence ou langue dans `contents` :
 
 ```yml
 subject: Expériences professionnelles
@@ -19,6 +24,8 @@ contents:
     description:
       - "Responsabilité ou réalisation."
 ```
+
+Les champs propres à un élément peuvent varier selon la section : utilisez par exemple `level` pour le niveau d'une langue ou `grade` pour un diplôme. Les entrées actuellement présentes sont des exemples fictifs, à remplacer par vos informations avant publication. La page `index.html` utilise la mise en page `home` du thème, qui lit automatiquement les fichiers de `_data/` et trie les sections avec `listing-order`.
 
 ## Prévisualiser localement
 
