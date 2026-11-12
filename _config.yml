@@ -1,0 +1,28 @@
+title: "CV en ligne"
+url: "https://esthertchangani.github.io"
+baseurl: "/cv"
+
+remote_theme: byanko55/jekyll-professional-resume@master
+
+profile_img: "/assets/img/profile.webp"
+icon_img: "/assets/img/icon.webp"
+name: "Esther TCHANGANI"
+job: "Business Intelligence Analyst"
+phone_number: null
+address: "Sophia Antipolis, France"
+email: "tchanganiesther@gmail.com"
+linkedin_username: "esther-h-579887174"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
