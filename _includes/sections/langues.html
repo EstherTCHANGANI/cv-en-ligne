@@ -1,0 +1,10 @@
+<ul>
+  {% for member in include.section.contents %}
+    <li class="item">
+      {% include sections/item-heading.html member=member %}
+      {% if member.level %}
+        <p><strong>Niveau :</strong> {{ member.level | escape }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

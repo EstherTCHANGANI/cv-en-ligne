@@ -1,0 +1,20 @@
+<ul>
+  {% for member in include.section.contents %}
+    <li class="item">
+      {% include sections/item-heading.html member=member %}
+      {% for item in member %}
+        {% unless item[0] == "title" or item[0] == "date" %}
+          {% if item[1].first %}
+            <ul>
+              {% for subitem in item[1] %}
+                <li class="subitem">{{ subitem | markdownify }}</li>
+              {% endfor %}
+            </ul>
+          {% else %}
+            <p><strong>{{ item[0] | replace: "_", " " | capitalize }} :</strong> {{ item[1] | escape }}</p>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </li>
+  {% endfor %}
+</ul>

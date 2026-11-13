@@ -1,0 +1,30 @@
+<ul>
+  {% for member in include.section.contents %}
+    <li class="item">
+      {% include sections/item-heading.html member=member %}
+      {% if member.role %}
+        {{ member.role | markdownify }}
+      {% endif %}
+      {% if member.secteur %}
+        <p><strong>Secteur :</strong> {{ member.secteur | escape }}</p>
+      {% endif %}
+      {% if member.context %}
+        <p><strong>Contexte :</strong> {{ member.context | escape }}</p>
+      {% endif %}
+      {% if member.environment %}
+        <p><strong>Environnement :</strong> {{ member.environment | escape }}</p>
+      {% endif %}
+      {% if member.description %}
+      <p><strong>Description :</strong></p>
+        <ul>
+          {% for item in member.description %}
+            <li class="subitem">{{ item | markdownify }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+      {% if member.technologies %}
+        <p><strong>Technologies :</strong> {{ member.technologies | escape }}</p>
+      {% endif %}
+    </li>
+  {% endfor %}
+</ul>

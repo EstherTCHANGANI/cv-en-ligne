@@ -1,0 +1,9 @@
+<div class="content-header">
+  {{ include.member.title | markdownify }}
+  {% if include.member.date %}
+    <span class="content-date">
+      <img src="{{ '/assets/img/calendar.webp' | prepend: site.baseurl }}" alt="date">
+      {{ include.member.date }}
+    </span>
+  {% endif %}
+</div>

@@ -1,7 +1,8 @@
 subject: Profil
+template: profil
 listing-order: 1
 icon: "/assets/img/clipboard-list.svg"
 contents:
   - title: "Ingénieure Data / BI"
-    description:
-      - "Ingénieure Data / BI avec plus de 3 ans d’expérience dans la conception et l’évolution de flux de données, de la collecte et transformation jusqu’au reporting. Expérience en SQL, ETL, dbt, Snowflake et modélisation dimensionnelle. Mon expérience récente en Product Definition Analyst m’a également permis de renforcer mon analyse des besoins métiers et mon interface avec les équipes techniques."
+    description: |
+      Ingénieure Data / BI avec plus de 3 ans d’expérience dans la conception et l’évolution de flux de données, de la collecte et transformation jusqu’au reporting. Expérience en SQL, ETL, dbt, Snowflake et modélisation dimensionnelle. Mon expérience récente en Product Definition Analyst m’a également permis de renforcer mon analyse des besoins métiers et mon interface avec les équipes techniques.

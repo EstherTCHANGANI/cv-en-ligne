@@ -26,7 +26,7 @@ contents:
       - "Responsabilité ou réalisation."
 ```
 
-Les champs propres à un élément peuvent varier selon la section : utilisez par exemple `level` pour le niveau d'une langue ou `grade` pour un diplôme. Les fichiers actuels reprennent les informations de `raw.txt`. La page `index.html` utilise la mise en page `home` du thème, qui lit automatiquement les fichiers de `_data/` et trie les sections avec `listing-order`.
+Les champs propres à un élément varient selon la section : `level` décrit le niveau d'une langue, tandis que `grade` décrit un diplôme. Chaque fichier indique son propre `template`, rendu par un fichier correspondant dans `_includes/sections/` ; vous pouvez donc personnaliser une section sans modifier les autres. Le rendu générique s'applique aux sections sans template spécifique. Les fichiers actuels reprennent les informations de `raw.txt`. La page `index.html` utilise la mise en page `home`, qui trie les sections avec `listing-order`.
 
 ## Prévisualiser localement
 

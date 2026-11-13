@@ -1,10 +1,14 @@
 subject: Expériences professionnelles
+template: experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
   - title: "Product Definition Analyst"
     role: "Consultant MERITIS pour le client AMADEUS"
+    context: "Optimisation des mécanismes de tarification dynamique pour répondre aux besoins et aux spécificités de plus d'une dizaine de partenaires, avec des règles métier et des exigences fonctionnelles propres à chacun."
     date: "Octobre 2025 - Aujourd’hui"
+    secteur: "Aérien / Transport"
+    environment: "Equipe de 10 personnes, méthodologie Agile (SAFe)"
     description:
       - "Analyse et formalisation des besoins fonctionnels pour des solutions de Pricing & Shopping dans le secteur aérien."
       - "Analyse des besoins métier et définition des évolutions fonctionnelles d’une solution de tarification dynamique aérienne."
@@ -13,10 +17,12 @@ contents:
       - "Suivi des évolutions et des anomalies dans un environnement Agile."
       - "Préparation des scénarios de tests, réalisation des recettes fonctionnelles et validation des évolutions."
       - "Contribution à la documentation fonctionnelle et à l’amélioration continue du produit."
-    environment: "Splunk • ALM Octane • Jira • Confluence • SAFe"
+    technologies: "Jira • Confluence • ALM Octane • SQL • Splunk • Couchbase"
   - title: "BI Engineer"
     role: "Septeo Hospitality (ex-Sequoiasoft)"
     date: "Décembre 2022 - Octobre 2025"
+    secteur: "Aérien / Transport"
+    environment: "Equipe de 10 personnes, méthodologie Agile (SAFe)"
     description:
       - "Développement et mise à disposition de données fiables liées aux réservations de séjours pour répondre aux besoins de reporting des clients."
       - "Recueil et analyse des besoins métiers pour concevoir des solutions de reporting adaptées."

@@ -1,0 +1,10 @@
+<ul>
+  {% for member in include.section.contents %}
+    <li class="item">
+      {% include sections/item-heading.html member=member %}
+      {% for item in member.description %}
+        {{ item | markdownify }}
+      {% endfor %}
+    </li>
+  {% endfor %}
+</ul>

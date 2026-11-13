@@ -1,4 +1,5 @@
 subject: Compétences
+template: competences
 listing-order: 4
 icon: "/assets/img/screwdriver-wrench.svg"
 contents:

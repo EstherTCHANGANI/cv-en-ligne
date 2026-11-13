@@ -1,0 +1,16 @@
+<ul>
+  {% for member in include.section.contents %}
+    <li class="item">
+      {% include sections/item-heading.html member=member %}
+      {% if member.role %}
+        {{ member.role | markdownify }}
+      {% endif %}
+      {% if member.grade %}
+        <p><strong>Diplôme :</strong> {{ member.grade | escape }}</p>
+      {% endif %}
+      {% for item in member.description %}
+        {{ item | markdownify }}
+      {% endfor %}
+    </li>
+  {% endfor %}
+</ul>

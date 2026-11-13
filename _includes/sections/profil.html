@@ -1,0 +1,6 @@
+{% for member in include.section.contents %}
+    {% include sections/item-heading.html member=member %}
+    {% for paragraph in member.description %}
+      {{ paragraph | markdownify }}
+    {% endfor %}
+{% endfor %}
