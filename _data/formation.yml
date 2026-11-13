@@ -1,9 +1,10 @@
 subject: Formation
-listing-order: 2
+listing-order: 3
 icon: "/assets/img/graduation-cap.svg"
 contents:
-  - title: "EXEMPLE À REMPLACER — Diplôme en informatique décisionnelle"
-    date: "20XX - 20XX"
+  - title: "Ingénieure Informatique — Polytech Nice Sophia"
+    date: "2022"
     description:
-      - "Établissement fictif — exemple"
-      - "Remplacez par votre diplôme, établissement et spécialité."
+      - "Spécialisation Data, Web sémantique et IA."
+  - title: "Licence en génie logiciel"
+    role: "IAI (Institut Africain d’Informatique)"

@@ -1,8 +1,8 @@
 subject: Langues
-listing-order: 4
+listing-order: 5
 icon: "/assets/img/globe.svg"
 contents:
-  - title: "EXEMPLE À REMPLACER — Français"
-    level: "Exemple : langue maternelle"
-  - title: "EXEMPLE À REMPLACER — Anglais"
-    level: "Exemple : B2"
+  - title: "Français"
+    level: "Courant"
+  - title: "Anglais"
+    level: "Intermédiaire (B2)"
