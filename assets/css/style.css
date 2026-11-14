@@ -220,7 +220,11 @@ a {
     margin-right: 8px;
     vertical-align: sub; }
   #contents .subitem {
-    list-style: square;
+    list-style: circle;
+    margin-left: 2rem;
+    margin-top: 0.5rem; }
+  #contents .ordered-subitem {
+    list-style: inside;
     margin-left: 2rem;
     margin-top: 0.5rem; }
   #contents em {

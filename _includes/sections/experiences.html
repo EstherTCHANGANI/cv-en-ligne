@@ -15,12 +15,18 @@
         <p><strong>Environnement :</strong> {{ member.environment | escape }}</p>
       {% endif %}
       {% if member.description %}
-      <p><strong>Description :</strong></p>
-        <ul>
+      <p><strong>Missions :</strong></p>
+        <ol>
           {% for item in member.description %}
-            <li class="subitem">{{ item | markdownify }}</li>
+            <li class="ordered-subitem"><b>{{ item.title | escape }}</b>
+              <ul>
+                {% for details in item.details %}
+                  <li class="subitem">{{ details | markdownify }}</li>
+                {% endfor %}
+              </ul>  
+            </li>
           {% endfor %}
-        </ul>
+        </ol>
       {% endif %}
       {% if member.technologies %}
         <p><strong>Technologies :</strong> {{ member.technologies | escape }}</p>

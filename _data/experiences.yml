@@ -10,29 +10,59 @@ contents:
     secteur: "Aérien / Transport"
     environment: "Equipe de 10 personnes, méthodologie Agile (SAFe)"
     description:
-      - "Analyse et formalisation des besoins fonctionnels pour des solutions de Pricing & Shopping dans le secteur aérien."
-      - "Analyse des besoins métier et définition des évolutions fonctionnelles d’une solution de tarification dynamique aérienne."
-      - "Analyse des règles métier et formalisation des spécifications fonctionnelles."
-      - "Collaboration avec le Product Owner et les équipes techniques pour assurer la bonne compréhension des besoins."
-      - "Suivi des évolutions et des anomalies dans un environnement Agile."
-      - "Préparation des scénarios de tests, réalisation des recettes fonctionnelles et validation des évolutions."
-      - "Contribution à la documentation fonctionnelle et à l’amélioration continue du produit."
+      - title: "Analyse métier et définition des évolutions"
+        details:
+          - Étude des besoins métier liés aux fonctionnalités de Pricing & Shopping et compréhension des enjeux associés à la tarification dynamique aérienne.
+          - Analyse du fonctionnement existant de la solution afin d'identifier les évolutions nécessaires et leurs impacts sur les fonctionnalités concernées.
+          - Échanges avec le Product Owner pour clarifier les demandes, définir le périmètre fonctionnel et préciser les comportements attendus.
+      - title: "Spécifications fonctionnelles"
+        details:
+          - Analyse des règles métier et formalisation des exigences fonctionnelles, des conditions de gestion et des cas d'utilisation.
+          - Rédaction de spécifications détaillant les comportements attendus, les scénarios possibles et les cas particuliers.
+          - Traduction des besoins en éléments suffisamment précis pour guider les équipes de développement dans leur réalisation.
     technologies: "Jira • Confluence • ALM Octane • SQL • Splunk • Couchbase"
   - title: "BI Engineer"
     role: "Septeo Hospitality (ex-Sequoiasoft)"
     date: "Décembre 2022 - Octobre 2025"
-    secteur: "Aérien / Transport"
-    environment: "Equipe de 10 personnes, méthodologie Agile (SAFe)"
+    secteur: "Hôtellerie / Tourisme"
+    environment: "Equipe de 4 personnes"
     description:
-      - "Développement et mise à disposition de données fiables liées aux réservations de séjours pour répondre aux besoins de reporting des clients."
-      - "Recueil et analyse des besoins métiers pour concevoir des solutions de reporting adaptées."
-      - "Conception et développement de flux ETL en SQL avec Pentaho Data Integration."
-      - "Migration et modernisation des flux de données vers dbt et Snowflake."
-      - "Refonte et développement de nouveaux pipelines de transformation."
-      - "Optimisation des performances et fiabilisation des traitements."
-      - "Conception et automatisation de reportings."
-      - "Accompagnement des utilisateurs pour l’installation et la prise en main des outils de data visualisation."
-    environment: "SQL • PostgreSQL • Pentaho • dbt • Snowflake • GitLab • MyReport • Azure DevOps • Jira"
+      - title: "Analyse des besoins et conception fonctionnelle"
+        details:
+          - Recueil, analyse et formalisation des besoins auprès des équipes métiers et des clients afin d'identifier les données, indicateurs et restitutions attendus.
+          - Traduction des besoins fonctionnels en solutions techniques adaptées aux contraintes des sources de données et des outils décisionnels.
+          - Définition des règles de gestion, des indicateurs et des modalités de calcul nécessaires à la production de données cohérentes et fiables.
+          - Conception et développement de flux ETL avec Pentaho Data Integration (PDI) et SQL pour extraire, transformer et charger les données issues de différentes sources.
+          - Développement et évolution des traitements d'alimentation des bases de données afin de garantir la disponibilité, la cohérence et la qualité des données.
+          - Refonte et développement de pipelines de transformation pour améliorer la structuration, la réutilisabilité et la maintenabilité des traitements.
+          - Optimisation des requêtes SQL et des processus de transformation afin d'améliorer les performances et de fiabiliser les traitements.
+      - title: "Intégration et ingénierie des données (Data Engineering)"
+        details:
+          - Conception, développement et maintenance de flux ETL avec Pentaho Data Integration (PDI) et SQL pour extraire, intégrer et consolider les données issues de différentes sources.
+          - Développement et évolution des traitements d'alimentation des bases de données afin de garantir la disponibilité, la cohérence et la qualité des données.
+          - Migration et modernisation progressive des traitements historiques vers une architecture reposant sur dbt et Snowflake.
+          - Refonte et développement de pipelines de transformation pour améliorer la structuration, la réutilisabilité et la maintenabilité des traitements.
+          - Optimisation des requêtes SQL et des processus de transformation afin d'améliorer les performances et de fiabiliser les traitements.
+          - Maintenance corrective et évolutive des flux existants, analyse des anomalies et résolution des problèmes liés à la qualité ou à l'intégration des données.
+      - title: "Modélisation et documentation du Data Warehouse"
+        details:
+          - Conception et évolution des modèles de données pour faciliter leur exploitation et répondre aux différents besoins d'analyse et de reporting.
+          - Structuration et organisation des données afin de transformer les données brutes et opérationnelles en données consolidées et exploitables.
+          - "Documentation technique et fonctionnelle du Data Warehouse : description des tables, définition des champs, explication des règles de gestion et des indicateurs."
+          - Formalisation des relations entre les tables, des clés de jointure et des dépendances entre les différents objets du modèle de données.
+          - Maintenance et actualisation de la documentation au fil des évolutions du modèle et des traitements, afin de faciliter la compréhension, l'exploitation et la maintenance du patrimoine de données.
+      - title: "Business Intelligence et restitution des données"
+        details:
+          - Conception et développement de rapports et tableaux de bord interactifs pour visualiser les données et faciliter la prise de décision.
+          - Mise en place d'indicateurs clés de performance (KPI) et de métriques pertinentes pour suivre l'activité et évaluer les performances.
+          - Création de visualisations adaptées aux besoins des utilisateurs, avec des graphiques, des tableaux et des filtres interactifs.
+          - Évolution des restitutions existantes en fonction des nouveaux besoins métiers et des évolutions fonctionnelles.
+      - title: "Assistance et support aux utilisateurs"
+        details:
+          - Accompagnement des utilisateurs dans l'installation, la configuration et la prise en main des outils de reporting et de data visualisation.
+          - Assistance technique et fonctionnelle pour faciliter l'exploitation des données et l'utilisation des solutions décisionnelles.
+          - Collaboration avec les équipes techniques et métiers pour assurer le bon fonctionnement et l'évolution des solutions Data et BI.
+    technologies: "SQL • PostgreSQL • Pentaho • dbt • Snowflake • GitLab • MyReport • Azure DevOps • Jira • SchemaSpy"
   - title: "Ingénieure BI — Stage"
     role: "Siemens"
     date: "Mars 2022 - Septembre 2022"
