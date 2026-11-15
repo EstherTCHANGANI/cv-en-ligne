@@ -3,7 +3,7 @@ template: experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: "Product Definition Analyst"
+  - title: "Product Definition Analyst (Analyste Technico-fonctionnel) - CDI"
     role: "Consultant MERITIS pour le client AMADEUS"
     context: "Optimisation des mécanismes de tarification dynamique pour répondre aux besoins et aux spécificités de plus d'une dizaine de partenaires, avec des règles métier et des exigences fonctionnelles propres à chacun."
     date: "Octobre 2025 - Aujourd’hui"
@@ -21,8 +21,9 @@ contents:
           - Rédaction de spécifications détaillant les comportements attendus, les scénarios possibles et les cas particuliers.
           - Traduction des besoins en éléments suffisamment précis pour guider les équipes de développement dans leur réalisation.
     technologies: "Jira • Confluence • ALM Octane • SQL • Splunk • Couchbase"
-  - title: "BI Engineer"
+  - title: "Analytics Engineer - CDI"
     role: "Septeo Hospitality (ex-Sequoiasoft)"
+    context: "Dans le cadre du développement et de l'exploitation de la solution Resalys, dédiée à la gestion des réservations de séjours, j'étais chargée de mettre à disposition des clients des données fiables, structurées et exploitables, principalement liées à leur activité de réservation. Ces données leur permettaient d'alimenter leurs outils de reporting, de suivre leur activité et de faciliter leur prise de décision."
     date: "Décembre 2022 - Octobre 2025"
     secteur: "Hôtellerie / Tourisme"
     environment: "Equipe de 4 personnes"
@@ -63,15 +64,34 @@ contents:
           - Assistance technique et fonctionnelle pour faciliter l'exploitation des données et l'utilisation des solutions décisionnelles.
           - Collaboration avec les équipes techniques et métiers pour assurer le bon fonctionnement et l'évolution des solutions Data et BI.
     technologies: "SQL • PostgreSQL • Pentaho • dbt • Snowflake • GitLab • MyReport • Azure DevOps • Jira • SchemaSpy"
-  - title: "Ingénieure BI — Stage"
+  - title: "Ingénieure Business Intelligence BI — Stage"
     role: "Siemens"
+    context: "Au sein de l'équipe Operational Excellence, j'ai participé à des projets de valorisation des données opérationnelles auprès de plusieurs services : dépannage, facturation, maintenance et centre d'appels.L'objectif était de centraliser et d'harmoniser des données issues de différentes sources afin de faciliter le suivi des performances et de mettre à disposition des équipes des outils de reporting adaptés à leurs besoins."
     date: "Mars 2022 - Septembre 2022"
+    secteur: "Services / Smart Infrastructure"
+    environment: "Equipe de 10 personnes"
     description:
-      - "Développement de solutions décisionnelles pour l’équipe Excellence Opérationnelle de Smart Infrastructure."
-      - "Spécification des besoins en matière de KPI."
-      - "Proposition de maquettes de visualisation."
-      - "Automatisation de la collecte et de l’harmonisation de données multi-sources."
-      - "Nettoyage, transformation et préparation des données."
-      - "Modélisation dimensionnelle en schéma en étoile."
-      - "Création et amélioration de tableaux de bord."
-    environment: "Qlik Sense • SQL • Excel • Power Automate"
+      - title: "Analyse des besoins et conception fonctionnelle"
+        details:
+          - Recueil des besoins auprès des différents services opérationnels et analyse des processus de suivi existants.
+          - Formalisation des besoins en spécifications fonctionnelles et définition des indicateurs de performance (KPI).
+          - Réalisation de maquettes de tableaux de bord pour définir les restitutions attendues.
+      - title: "Collecte et préparation des données"
+        details:
+          - Identification et analyse des sources de données disponibles, provenant de différents services et formats.
+          - Développement de traitements SQL pour extraire, nettoyer et harmoniser les données.
+          - Mise en place de flux automatisés avec Power Automate pour faciliter la récupération et l'actualisation des données.
+      - title: "Modélisation des données"
+        details:
+          - Structuration et harmonisation des données selon un schéma commun pour faciliter leur exploitation.
+          - Définition des correspondances entre les différentes sources et préparation des données nécessaires au calcul des indicateurs.
+      - title: "Développement des solutions BI"
+        details:
+          - Conception et développement de tableaux de bord sous Qlik Sense pour le suivi des performances opérationnelles.
+          - Intégration des KPI et adaptation des visualisations aux besoins des différents services.
+          - Optimisation des tableaux de bord en fonction des retours utilisateurs.
+      - title: "Collaboration et mise en œuvre"
+        details:
+          - Collaboration avec les équipes techniques pour la mise en œuvre des solutions.
+          - Échanges avec les utilisateurs métiers pour ajuster les restitutions et s'assurer de leur adéquation avec les besoins opérationnels.
+    technologies: "Qlik Sense • SQL • Excel • Power Automate"
