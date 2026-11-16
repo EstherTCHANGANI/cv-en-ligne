@@ -5,16 +5,16 @@ icon: "/assets/img/screwdriver-wrench.svg"
 contents:
   - title: "Data Engineering & Bases de données"
     description:
-      - "SQL • Python • PostgreSQL • Snowflake • MongoDB"
+      - "SQL • Python • PostgreSQL • MySQL • Snowflake • MongoDB"
   - title: "ETL & Transformation de données"
     description:
-      - "Pentaho Data Integration • dbt • Optimisation des flux"
+      - "Pentaho Data Integration • dbt • PowerAutomate"
   - title: "Business Intelligence & Data Visualisation"
     description:
       - "Power BI • Qlik Sense • MyReport • Modélisation dimensionnelle • Schéma en étoile"
   - title: "DevOps & Outils"
     description:
-      - "GitLab • Jenkins • Azure DevOps • Jira • API REST • Postman"
+      - "GitLab • Jenkins • Azure DevOps • Splunk"
   - title: "Analyse fonctionnelle & Qualité"
     description:
-      - "Spécifications fonctionnelles • Tests fonctionnels • ALM Octane • Splunk • Agile / SAFe"
+      - "Spécifications fonctionnelles • Tests fonctionnels • ALM Octane • Agile / SAFe • Jira • Redmine • Confluence"
