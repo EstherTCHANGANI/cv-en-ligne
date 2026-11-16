@@ -20,6 +20,16 @@ contents:
           - Analyse des règles métier et formalisation des exigences fonctionnelles, des conditions de gestion et des cas d'utilisation.
           - Rédaction de spécifications détaillant les comportements attendus, les scénarios possibles et les cas particuliers.
           - Traduction des besoins en éléments suffisamment précis pour guider les équipes de développement dans leur réalisation.
+      - title: "Coordination et suivi des développements"
+        details:
+          - Interface entre le Product Owner et les développeurs pour garantir une compréhension commune des évolutions.
+          - Accompagnement des équipes techniques dans l'interprétation des spécifications et la clarification des règles métier.
+          - Suivi des évolutions et des anomalies dans Jira, analyse des dysfonctionnements et collaboration avec les développeurs pour leur résolution.
+      - title: "Tests, validation et documentation"
+        details:
+          - Préparation et exécution de scénarios de tests fonctionnels pour vérifier la conformité des développements.
+          - Réalisation des recettes, analyse des résultats et suivi des corrections.
+          - Rédaction et actualisation de la documentation fonctionnelle pour assurer la traçabilité des évolutions.
     technologies: "Jira • Confluence • ALM Octane • SQL • Splunk • Couchbase"
   - title: "Analytics Engineer - CDI"
     role: "Septeo Hospitality (ex-Sequoiasoft)"
@@ -32,7 +42,6 @@ contents:
         details:
           - Recueil et analyse des besoins des clients et des équipes métiers en matière de données et de reporting.
           - Traduction des besoins en solutions techniques et définition des règles de gestion, des indicateurs et des modalités de calcul.
-          - Identification des données nécessaires et des sources à exploiter pour répondre aux besoins exprimés.
       - title: "Intégration et ingénierie des données (Data Engineering)"
         details:
           - Conception, développement et maintenance de flux ETL avec Pentaho Data Integration (PDI) et SQL pour extraire, intégrer et consolider les données issues de différentes sources.
@@ -53,7 +62,6 @@ contents:
         details:
           - Accompagnement des utilisateurs dans l'installation, la configuration et la prise en main des outils de reporting et de data visualisation.
           - Assistance technique et fonctionnelle pour faciliter l'exploitation des données et l'utilisation des solutions décisionnelles.
-          - Collaboration avec les équipes techniques et métiers pour assurer le bon fonctionnement et l'évolution des solutions Data et BI.
     technologies: "SQL • PostgreSQL • Snowflake • Pentaho • dbt • GitLab • MyReport • Azure DevOps • Jira • Redmine • SchemaSpy"
   - title: "Ingénieure Business Intelligence BI — Stage"
     role: "Siemens"
@@ -64,9 +72,8 @@ contents:
     description:
       - title: "Analyse des besoins et conception fonctionnelle"
         details:
-          - Recueil des besoins auprès des différents services opérationnels et analyse des processus de suivi existants.
-          - Formalisation des besoins en spécifications fonctionnelles et définition des indicateurs de performance (KPI).
-          - Réalisation de maquettes de tableaux de bord pour définir les restitutions attendues.
+          - Recueil des besoins auprès des différents services opérationnels (dépannage, facturation, maintenance et centre d'appels) et analyse des processus existants.
+          - Formalisation des besoins en spécifications fonctionnelles, définition des KPI et réalisation de maquettes de tableaux de bord.
       - title: "Collecte et préparation des données"
         details:
           - Identification et analyse des sources de données disponibles, provenant de différents services et formats.
@@ -80,9 +87,5 @@ contents:
         details:
           - Conception et développement de tableaux de bord sous Qlik Sense pour le suivi des performances opérationnelles.
           - Intégration des KPI et adaptation des visualisations aux besoins des différents services.
-          - Optimisation des tableaux de bord en fonction des retours utilisateurs.
-      - title: "Collaboration et mise en œuvre"
-        details:
-          - Collaboration avec les équipes techniques pour la mise en œuvre des solutions.
-          - Échanges avec les utilisateurs métiers pour ajuster les restitutions et s'assurer de leur adéquation avec les besoins opérationnels.
+          - Ajustement des tableaux de bord en fonction des retours utilisateurs.
     technologies: "Qlik Sense • SQL • Excel • Power Automate"
