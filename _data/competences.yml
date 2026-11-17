@@ -8,7 +8,7 @@ contents:
       - "SQL • Python • PostgreSQL • MySQL • Snowflake • MongoDB"
   - title: "ETL & Transformation de données"
     description:
-      - "Pentaho Data Integration • dbt • Airbyte • PowerAutomate"
+      - "Pentaho Data Integration • dbt • PowerAutomate"
   - title: "Business Intelligence & Data Visualisation"
     description:
       - "Power BI • Qlik Sense • MyReport • Modélisation dimensionnelle • Schéma en étoile"

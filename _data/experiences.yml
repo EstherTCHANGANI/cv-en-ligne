@@ -62,7 +62,7 @@ contents:
         details:
           - Accompagnement des utilisateurs dans l'installation, la configuration et la prise en main des outils de reporting et de data visualisation.
           - Assistance technique et fonctionnelle pour faciliter l'exploitation des données et l'utilisation des solutions décisionnelles.
-    technologies: "SQL • PostgreSQL • Snowflake • Pentaho • dbt • Airbyte • GitLab • MyReport • Power BI • Jira • Redmine • SchemaSpy"
+    technologies: "SQL • PostgreSQL • Snowflake • Pentaho • dbt • GitLab • MyReport • Power BI • Jira • Redmine • SchemaSpy"
   - title: "Ingénieure Business Intelligence BI — Stage"
     role: "Siemens"
     context: "Au sein de l'équipe Operational Excellence, j'ai participé à des projets de valorisation des données opérationnelles auprès de plusieurs services : dépannage, facturation, maintenance et centre d'appels.L'objectif était de centraliser et d'harmoniser des données issues de différentes sources afin de faciliter le suivi des performances et de mettre à disposition des équipes des outils de reporting adaptés à leurs besoins."
@@ -89,3 +89,29 @@ contents:
           - Intégration des KPI et adaptation des visualisations aux besoins des différents services.
           - Ajustement des tableaux de bord en fonction des retours utilisateurs.
     technologies: "Qlik Sense • SQL • Excel • Power Automate"
+
+  - title: "Stage - Data SQL"
+    role: "Jaguards"
+    context: "Participation au développement d'une solution décisionnelle pour un acteur du secteur des loisirs, visant à améliorer le suivi des incidents et des opérations de maintenance à travers des indicateurs de performance."
+    date: "Mars 2021 - Août 2021"
+    secteur: "Loisirs / Divertissement"
+    environment: "Agile Scrum - Équipe de 6 personnes"
+    description:
+      - title: "Analyse des besoins et définition des indicateurs"
+        details:
+          - Recueil des besoins métier et participation à la rédaction du cahier des charges.
+          - Définition des indicateurs clés de performance (KPI) liés aux incidents et à la maintenance.
+          - Benchmark des solutions de Data Visualisation et sélection de Metabase.
+      - title: "Extraction et préparation des données"
+        details:
+          - Rédaction de requêtes SQL pour l'extraction et la transformation des données.
+          - Exploitation de données issues des bases MySQL et PostgreSQL.
+      - title: "Modélisation des données"
+        details:
+          - Structuration et harmonisation des données selon un schéma commun pour faciliter leur exploitation.
+          - Définition des correspondances entre les différentes sources et préparation des données nécessaires au calcul des indicateurs.
+      - title: "Développement des solutions BI"
+        details:
+          - Conception et développement de tableaux de bord interactifs sous Metabase.
+          - Réalisation d'un POC d'intégration des tableaux de bord dans une application web, en collaboration avec les équipes techniques.
+    technologies: "SQL • MySQL • PostgreSQL • Metabase • Java • Trello"
