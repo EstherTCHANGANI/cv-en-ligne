@@ -62,7 +62,7 @@ contents:
         details:
           - Accompagnement des utilisateurs dans l'installation, la configuration et la prise en main des outils de reporting et de data visualisation.
           - Assistance technique et fonctionnelle pour faciliter l'exploitation des données et l'utilisation des solutions décisionnelles.
-    technologies: "SQL • PostgreSQL • Snowflake • Pentaho • dbt • GitLab • MyReport • Azure DevOps • Jira • Redmine • SchemaSpy"
+    technologies: "SQL • PostgreSQL • Snowflake • Pentaho • dbt • Airbyte • GitLab • MyReport • Power BI • Jira • Redmine • SchemaSpy"
   - title: "Ingénieure Business Intelligence BI — Stage"
     role: "Siemens"
     context: "Au sein de l'équipe Operational Excellence, j'ai participé à des projets de valorisation des données opérationnelles auprès de plusieurs services : dépannage, facturation, maintenance et centre d'appels.L'objectif était de centraliser et d'harmoniser des données issues de différentes sources afin de faciliter le suivi des performances et de mettre à disposition des équipes des outils de reporting adaptés à leurs besoins."
